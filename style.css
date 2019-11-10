@@ -1,0 +1,343 @@
+@charset "UTF-8";
+
+#container{
+    /* width: 100%; */
+    height: 100%;
+    /* padding: 0 -10px 0 10px; */
+    /* background-color:gray; */
+}
+
+#top .js{
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    /* margin-left: 30px; */
+}
+
+
+.js:hover{
+    /* border-radius:35px; */
+    width:70px;
+    height:70px;
+}
+
+
+header .ss{
+    display: none;
+}
+/* header{
+    position:fixed;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 10px;
+} */
+
+/* header{
+    width: 100%;
+} */
+img{
+    width: 100%;
+}
+
+header{
+    background-color: gray;
+    height: 100%;
+}
+
+.oops{
+    position: relative;
+    display: flex;
+    /* position: sticky;
+    top: 0;
+    z-index: 0; */
+}
+
+
+.ss{
+    /* background-color: gray; */
+    margin-top: 10px;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.ss:hover{
+    opacity: 0.5;
+}
+
+#top .rr{
+    /* margin: 40px; */
+    width:100px;
+    height:70px;
+    border-radius:5px;
+    color:#FFF;
+    font-weight: bolder;
+    background-color:black;
+    transition:all 0.3s;
+}
+
+#top .rr:hover{
+    border-radius:35px;
+    width:70px;
+    height:70px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.yes{
+    width: 400px;
+    height: 400px;
+}
+
+.ground{
+    width: 500px;
+    height: 400px;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+}
+h1{
+    text-align: center;
+    font-style: oblique;
+    font-size: 35px;
+}
+
+.qq img{
+    width: 400px;
+    height: 550px;
+    border: 2px solid;
+    margin-bottom: 50px;
+
+}
+
+.qq ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* ul li{
+    overflow: hidden;
+} */
+
+hr{
+    border-bottom: double;
+}
+.qq button{
+    display: block;
+    color: blue;
+    margin: 10px;
+}
+
+.ww{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.fade {
+    opacity: 0;
+    transform : translate(10px, 10px);
+    transition: 3000ms;
+}
+.fade.scrollin{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+
+.fade img:hover{
+    opacity: 0.3;
+}
+
+
+
+
+.ff img{
+    height: 300px;
+    width: 100%;
+}
+
+.ff{
+    display: flex;
+}
+h2{
+    font-size: 25px;
+    margin: 50px;
+}
+
+span{
+    color: red;
+    font-size: 40px;
+}
+
+
+.pic{
+    transition: 0.5s;
+}
+.pic:hover{
+    opacity: 0.5;
+}
+
+
+.last{
+    display: flex;
+    justify-content: space-around;
+}
+
+.last li{
+    font-size: 30px;
+    text-shadow: 5px 10px 3px red;
+}
+
+.last p{
+    width: 300px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.box{
+    background-color: black;
+    width: 100%;
+    color: gray;
+    height: 30px;
+}
+
+
+
+
+.box{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.fff{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#aaa{
+    padding: 10px 20px 10px 20px;
+    margin: 10px 0 5px 0;
+    background-color:gray;
+    color: white;
+    font-size: 15px;
+}
+
+#aaa:hover{
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 816px){
+    #container{
+        width: 100%;
+    }
+    .middle{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ground{
+        width: 100%;
+    }
+    .yes{
+        text-align: center
+    }
+
+    .last{
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+    }
+
+    .ground{
+        width: 100%;
+    }
+   
+
+}
+
+@media screen and (max-width:560px){
+    #conatiner{
+        width: 100%;
+    }
+
+
+    #top .rr{
+        /* margin: 40px; */
+        width:70px;
+        height:40px;
+        border-radius:5px;
+        color:#FFF;
+        font-weight: bolder;
+        background-color:black;
+        transition:all 0.3s;
+    }
+    
+    #top .rr:hover{
+        border-radius:35px;
+        width:70px;
+        height:60px;
+    }
+    /* .ss{
+        /* padding: 5px; */
+    /* } */
+    .oops{
+        height: 80px;
+        display: block;
+    }
+    .middle{
+        display: flex;
+        flex-direction: column;
+    }
+    .last{
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+
+    }
+    .last li{
+        font-size: 25px;
+    }
+
+
+    .last p{
+    text-align: center;
+    }
+
+    .yes{
+        width: 100%;
+    }
+
+    .rr{
+        padding: 5px;
+    }
+
+    .ddd{
+        font-size: 20px;
+    }
+
+    span{
+        font-size: 30px;
+    }
+
+
+
+
+
+}
+
+
+
+

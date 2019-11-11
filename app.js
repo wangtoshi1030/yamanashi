@@ -14,9 +14,9 @@ $(function(){
         maxSize  : 20,    // 雪の最大サイズ
         minSpeed : 1,    // 雪の最低速度
         maxSpeed : 3,    // 雪の最高速度
-        round    : true, // 雪の形を丸くする
+        // round    : true, // 雪の形を丸くする
         // shadow   : true, // 雪に影をつける
-        flakeColor : "pink", // 雪の色を指定
+        flakeColor : "white", // 雪の色を指定
         image :"https://lib.tree-web.net/image/sakura_hanabira3.png"
     });
 
@@ -46,7 +46,7 @@ $(function(){
                 let elemPos = $(this).offset().top,
                     scroll = $(window).scrollTop(),
                     windowHeight = $(window).height();
-                if (scroll > elemPos - windowHeight + 100){
+                if (scroll > elemPos - windowHeight + 200){
                     $(this).addClass('scrollin');
                     }
                 });
@@ -68,7 +68,7 @@ $(function(){
 $(function(){
     $(".ff").slick({
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         autoplay: true,
         autoplaySpeed: 1500,
     });

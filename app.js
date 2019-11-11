@@ -44,7 +44,7 @@ $(function(){
         $(window).scroll(function (){
             $('.fade').each(function(){
                 let elemPos = $(this).offset().top,
-                    scroll = $(Window).scrollTop(),
+                    scroll = $(window).scrollTop(),
                     windowHeight = $(window).height();
                 if (scroll > elemPos - windowHeight + 100){
                     $(this).addClass('scrollin');
@@ -70,7 +70,7 @@ $(function(){
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 1500,
     });
 
 
